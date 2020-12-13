@@ -13,6 +13,7 @@ import os
 import numpy as np
 import pandas as pd
 
+# Dictionary for report type lookup
 REPORT_TYPE_DICT = {'Sig6th': 'HCM 6th Signalized Intersection Summary', \
                     'Awsc6th': 'HCM 6th AWSC', \
                     'Twsc6th': 'HCM 6th TWSC', \
